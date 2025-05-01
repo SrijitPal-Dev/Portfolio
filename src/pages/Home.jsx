@@ -3,6 +3,7 @@ import { Send, Download } from "lucide-react"
 import TypingText from "../components/TypingText"
 import profileImage from "../assets/srijit2.jpeg"
 import bgImage from "../assets/tech-bg2.jpg"
+import { Link } from 'react-router-dom'
 
 const containerVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -82,13 +83,12 @@ const Home = () => {
             className="flex flex-wrap justify-center gap-4"
             variants={itemVariants}
           >
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition shadow-md"
             >
-              <Send className="w-4 h-4" />
               Contact Me
-            </a>
+            </Link>
             <a
               href="/Resume.pdf"
               download
