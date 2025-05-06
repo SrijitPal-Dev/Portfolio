@@ -4,6 +4,8 @@ import { Send, Download } from "lucide-react"
 import * as THREE from "three"
 import TypingText from "../components/TypingText"
 import profileImage from "../assets/srijit2.jpeg"
+import bgImage from "../assets/tech-bg2.jpg"
+import { Link } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 const containerVariants = {
