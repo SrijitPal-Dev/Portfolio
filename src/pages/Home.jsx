@@ -210,7 +210,7 @@ const Home = () => {
               Contact Me
             </Link>
             <a
-              href="/Resume.pdf"
+              href="/Srijit Pal.pdf"
               download
               className="flex items-center gap-2 bg-white text-blue-600 px-6 py-3 rounded-full hover:bg-blue-100 transition shadow-md border border-blue-600"
             >
