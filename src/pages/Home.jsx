@@ -6,7 +6,6 @@ import TypingText from "../components/TypingText"
 import profileImage from "../assets/srijit2.jpeg"
 import bgImage from "../assets/tech-bg2.jpg"
 import { Link } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 
 const containerVariants = {
   hidden: { opacity: 0, y: 30 },
