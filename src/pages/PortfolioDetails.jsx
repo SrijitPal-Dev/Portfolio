@@ -49,7 +49,7 @@ const projectData = {
       "Ultralytics YOLOv8",
       "NumPy",
     ],
-    repo: null,
+    repo: "https://github.com/SrijitPal-Dev/Yolov8-Object-Detection",
     website: null,
     image: portfolio3,
   },
